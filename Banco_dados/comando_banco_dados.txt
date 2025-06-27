@@ -1,0 +1,6 @@
+star aplication
+mysql -u root
+
+mostrar as tabelas
+show databases;
+
