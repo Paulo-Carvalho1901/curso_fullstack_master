@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Estilizando o artigo*/
+
+.artigo {
+  width: 1280px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.artigo h1 {
+  color: #069;
+  /* color: rgb(red, green, blue) */
+  font-size: 23px;
+  font-family: Tahoma;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.artigo p {
+  font-size: 17px;
+  color: #b4b4b4;
+  font-weight: bold;
+  font-family: tahoma;
+  margin-top: 30px;
+  line-height: 45px;
+  text-align: left;
+  background-color: aquamarine;
+  padding: 40px;
+}
+
+/*=====================================*/
