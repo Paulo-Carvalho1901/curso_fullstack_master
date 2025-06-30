@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Display bloco é padrão de uma div*/
+/*Margin espaçamento externo*/
+/**/
+.menu {
+  width: 900px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+/*Codigo esta mais especifico*/
+/* div.menu {
+  width: 400px;
+} */
+
+/* .menu > a {
+  color: rebeccapurple;
+} */
+
+.menu a {
+  color: red;
+  font-size: 20px;
+  margin: 0 10px;
+  text-decoration: none;
+  /* border-left: 1px;
+  border-left: 1px;
+  border-top: 1px;
+  border-bottom: 1px;
+  border-style: solid;
+  border-color: blue; */
+  border: 2px solid greenyellow;
+  padding: 8px;
+}
