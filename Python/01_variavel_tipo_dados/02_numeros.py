@@ -1,9 +1,9 @@
 # int - inteiros
 
-#int
+#int - inteiros
 1, 2, 9 
 
-# float
+# float - pontos fluantes
 1.2, 35.5, 1.1 
 
 # complex
