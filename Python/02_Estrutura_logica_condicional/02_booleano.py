@@ -15,3 +15,15 @@ chamado booleano em homenagem a George Boole
 # and (e)
 # or (ou)
 # not (negação)
+
+"""
+Tabela verdade
+
+Utilizando o 'E'
+
+verdadeiro e verdadeiro - True and True = True 
+vardadeiro e Falso - True and False = False
+Falso e verdadeiro - Falso and True = False
+Falso e Falso - False and False = False
+
+"""
