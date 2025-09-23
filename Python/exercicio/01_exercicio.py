@@ -50,3 +50,17 @@ desconto = float(preco_produto) * float(desconta) / 100
 preco_final = float(preco_produto) - desconto
 print(" ")
 print(f'O preço do produto com desconto é {preco_final}')
+
+
+print()
+print()
+
+print("Exercício 04 - Calcule a area de um circulo")
+print(" ")
+raio = input("Qual e o raio do circulo? ")
+area = 3.141592 * float(raio) ** 2
+print(" ")
+print(f"A area do seu circulo e {area}")
+
+print(" ")
+print(" ")
