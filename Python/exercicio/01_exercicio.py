@@ -14,7 +14,7 @@ qual será o valor do mesmo com desconto de (??)
 """
 
 print('=-' * 30)
-# exercicio 01 - área do retangulo
+# 01 - área do retangulo
 
 
 print('Calcule a áreea de um retangulo.')
@@ -35,3 +35,18 @@ print(" ")
 area = float(base_ou_altura) * 2
 print(" ")
 print(f'O seu quadrado possui area: {area} unidades de medida')
+
+print()
+print()
+
+# 03 - se o produto que você quer avaliar custo (??) reais 
+# qual será o valor do mesmo com desconto de (??)
+print("Exercício 03 - Calcule o seu produto com desconto aplicado")
+print(" ")
+preco_produto = input('Quanto custa o seu produto? ')
+desconta = input('Quanto o valor do desconto? ')
+
+desconto = float(preco_produto) * float(desconta) / 100
+preco_final = float(preco_produto) - desconto
+print(" ")
+print(f'O preço do produto com desconto é {preco_final}')
