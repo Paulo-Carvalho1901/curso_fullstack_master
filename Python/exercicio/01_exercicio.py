@@ -23,4 +23,15 @@ base = input('Qual o tamnho da base do seu retangulo')
 altura = input('Qual o tamanho da altura do seu regulamento.')
 area = float(base) * float(altura)
 
-print('fO seu retangulo possui area {area}')
+print(f'O seu retangulo possui area {area}')
+
+print()
+print()
+
+# 02 - área de um quadrado
+print("Exercício 02 - Calcule a area de um quadrado")
+base_ou_altura = input("Qual o tamanho da base ou da altura do seu quadrado? ")
+print(" ")
+area = float(base_ou_altura) * 2
+print(" ")
+print(f'O seu quadrado possui area: {area} unidades de medida')
