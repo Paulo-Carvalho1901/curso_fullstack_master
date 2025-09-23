@@ -75,3 +75,9 @@ print(f"Seus {r} reais sao {int(dolar)} em dolares americano(01/06/2024)")
 print(" ")
 print(" ")
 
+print("Exercício 06 - Converta dolar em real")
+print(" ")
+d = input("Quantos dolares para converter? ")
+reais = float(d) / 0.19
+print(" ")
+print(f"Seus {d} dolares sao {int(reais)} em reais(01/06/2024)")
