@@ -64,3 +64,14 @@ print(f"A area do seu circulo e {area}")
 
 print(" ")
 print(" ")
+
+print("Exercício 05 - Converta real em dolar")
+print(" ")
+r = input("Quantos reais para converter? ")
+dolar = float(r) / 5.25
+print(" ")
+print(f"Seus {r} reais sao {int(dolar)} em dolares americano(01/06/2024)")
+
+print(" ")
+print(" ")
+
