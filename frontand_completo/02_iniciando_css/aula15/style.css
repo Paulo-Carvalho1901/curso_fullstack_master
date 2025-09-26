@@ -9,7 +9,8 @@ body {
   height: 100%;
 }
 
-.lista {
+.lista,
+.lista2 {
   list-style-position: inside;
   /* list-style-type: circle; */
   /* list-style-type: disc; */
@@ -17,16 +18,14 @@ body {
   margin-left: 20px;
 }
 
-.lista li {
+.lista li,
+.lista2 li {
   color: green;
   font-size: 18px;
   margin-top: 10px;
 }
 
-.lista li.item3 {
-  color: violet;
-}
-
-.lista .item3 {
-  color: red;
+.lista .item3,
+.lista2 .item3 {
+  font-weight: bold;
 }
