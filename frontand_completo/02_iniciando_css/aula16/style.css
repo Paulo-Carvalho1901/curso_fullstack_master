@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.tipo1 {
+  color: maroon;
+}
+
+.tipo2 {
+  font-size: 48px;
+}
+
+.link_ {
+  font-size: 30px;
+}
